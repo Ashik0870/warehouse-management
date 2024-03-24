@@ -1,0 +1,51 @@
+.form {
+    margin: 20px;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    /* text-align: center; */
+    /* padding-left: 20px; */
+    background-color: var(--defaultButtonColor);
+    border: 1px solid var(--formInputBorderColor);
+    color: var(--formLabelColor);
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+
+  .buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    right: 0px;
+    gap: 15px;
+  }
+  

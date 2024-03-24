@@ -1,4 +1,63 @@
+
+
 :root {
+  --backgroundColor: rgba(250, 250, 250, 1);
+  --inputFieldColor:rgba(235, 235, 243, 1);
+  --primaryColor: white;
+  --boxShadow: rgba(16, 0, 0, 0.1);
+  --button: #2D2D5E;
+  --defaultButtonColor: rgba(255, 255, 255, 1);
+  --description:rgba(0, 0, 0, 0.5);
+  --gray100: rgba(0, 0, 0, 0.4);
+  --signup: rgba(244, 116, 88, 1);
+  --title: rgba(0, 0, 0, 1);
+  --otpColor: rgba(253, 170, 0, 1);
+  --sidebarColor: rgba(45, 45, 94, 1);
+  --sidebarContentColor: rgba(255, 184, 93, 1);
+  --dashboardTitleClr: rgba(70, 66, 85, 1);
+  --dashboardDiscClr: rgba(160, 174, 192, 1);
+  --orderDetailsClr: rgba(254, 250, 242, 1);
+  --bellColor: rgba(45, 156, 219, 0.15);
+  --notificationColor:  linear-gradient(0deg, #F3F2F7, #F3F2F7),
+                        linear-gradient(0deg, #2D2D5E, #2D2D5E);
+  --checkBoxColor:rgba(255, 91, 91, 1);
+  --notCheckedBoxColor:  rgba(163, 163, 163, 1);
+  --orderPieChartMax: rgba(224, 28, 30, 1);
+  --orderPieChartMin: rgba(255, 91, 91, 0.15);
+  --color2020: rgba(45, 156, 219, 1);
+  --color2021: rgba(255, 91, 91, 1);
+  --starColor: rgba(247, 198, 4, 1);
+  --emptyStarColor: rgba(185, 187, 189, 1);
+  --dropDownTextColor: rgba(94, 90, 219, 1);
+  --selectedOptionColor: rgba(237, 237, 252, 1);
+  --dropdownBorderColor: rgba(200, 202, 216, 1);
+  --tableHeading: rgba(78, 79, 84, 1);
+  --tableColor: rgba(250, 250, 250, 1);
+  --newOrderColor: rgba(45, 45, 94, 0.06);
+  --cancledColor: rgba(254, 232, 232, 1);
+  --cancleTextColor: rgba(248, 63, 63, 1);
+  --deliveredColor: rgba(225, 252, 239, 1);
+  --deliveredTextColor: rgba(20, 128, 74, 1);
+  --onDeliveryColor: rgba(255, 139, 4, 0.07);
+  --onDeliveryTextColor: rgba(255, 139, 4, 1);
+  --formLabelColor: rgba(142, 149, 169, 1);
+  --formInputBorderColor: rgba(205, 209, 222, 1);
+  --deleteButtonColor:rgba(241, 127, 104, 1);
+  --cancleButtonColor: rgba(233, 233, 233, 1);
+  --cancelLabelColor: rgba(109, 109, 109, 1);
+  --nameColor: rgba(28, 42, 83, 1);
+  --profileLineColor: rgba(233, 234, 243, 1);
+  --verifiedLabelColor: rgba(0, 125, 93, 1);
+  --boxShadowColor: rgba(255, 255, 255, 1);
+  --orderDetailsBoxShadow: rgba(0, 0, 0, 0.04);
+  --boxShadowOfDropDown :rgba(152, 161, 178, 0.1);
+  --viewPageShadow: rgba(51, 38, 174, 0.08);
+  --tableBorder: rgba(225, 226, 227, 1);
+  --verticleLineColor: rgba(208, 214, 222, 1);
+
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +163,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

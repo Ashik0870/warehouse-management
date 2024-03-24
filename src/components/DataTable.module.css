@@ -1,0 +1,125 @@
+.tableHeading {
+    height: 70px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(253, 249, 242, 1);
+  }
+  
+  .tableHeader {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--tableHeading);
+  }
+  
+  .tableContainer {
+    box-shadow: 1px 1px 1px 1px;
+    margin: 10px;
+    margin-left: 20px;
+    /* width: 100%; */
+    box-shadow: 1px solid var(--viewPageShadow);
+  }
+  
+  .tableBody {
+    text-align: center;
+  }
+  .tableRow {
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(253, 249, 242, 1);
+  }
+  
+  .tableTh {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid var(--tableBorder);
+  }
+  .arrows {
+    margin-left: 2px;
+    text-align: center;
+    /* margin-top: 3px; */
+  }
+  .tableTd {
+    text-decoration: none;
+    color: var(--dropDownTextColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .tableTdContainer {
+    text-align: center;
+  }
+  .dropDown {
+    margin-left: 10px;
+    width: 60px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 1);
+    border: 1px solid rgba(225, 226, 227, 1);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .dropDown option {
+    border: 1px solid rgba(225, 226, 227, 1);
+    border-radius: 4px;
+  }
+  
+  .tableFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+  
+  .statusBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    margin: auto;
+  }
+  
+  .cuttentPageButton {
+    height: 30px;
+    width: 30px;
+    background-color: var(--sidebarColor);
+    border-radius: 4px;
+    color: var(--primaryColor);
+  }
+  
+  .newOrder {
+    text-align: center;
+    background-color: var(--newOrderColor);
+  }
+  .Canceled {
+    background-color: var(--cancledColor);
+    color: var(--cancleTextColor);
+  }
+  .delivered {
+  
+    background-color: var(--deliveredColor);
+    color: var(--deliveredTextColor);
+  
+  }
+  .onDelivery {
+    background-color: var(--onDeliveryColor);
+    color: var(--onDeliveryTextColor);
+  }
+  
