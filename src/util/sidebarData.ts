@@ -21,7 +21,7 @@ export const sidebarData = [
     },
     {
       id: 5,
-      title: "Egg,Meet and Fish",
+      title: "Eggs, Meat and Fish",
       navigateLink: "/nonveg",
     },
     {
