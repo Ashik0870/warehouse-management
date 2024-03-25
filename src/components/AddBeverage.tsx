@@ -7,7 +7,7 @@ import { database } from "../app/firebaseConfig";
 import { useRouter } from "next/navigation";
 
 const AddBeverage: React.FC = () => {
-    const router = useRouter();
+  const router = useRouter();
   const [id, setId] = useState("");
   const [productName, setProductName] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -31,8 +31,8 @@ const AddBeverage: React.FC = () => {
       const newDatRef = push(foodRef);
 
       set(newDatRef, {
-        id:id,
-        "productName": productName,
+        id: id,
+        productName: productName,
         quantity: quantity,
         available: quantity,
         availability: 100,
@@ -95,7 +95,11 @@ const AddBeverage: React.FC = () => {
           </tr>
         </tbody>
       </table>
-      <button type="submit">Submit</button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.button} type="submit">
+          Submit
+        </button>
+      </div>
     </form>
   );
 };

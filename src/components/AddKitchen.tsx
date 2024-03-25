@@ -95,7 +95,11 @@ const AddKitchen: React.FC = () => {
           </tr>
         </tbody>
       </table>
-      <button type="submit">Submit</button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.button} type="submit">
+          Submit
+        </button>
+      </div>
     </form>
   );
 };
