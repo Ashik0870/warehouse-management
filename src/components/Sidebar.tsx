@@ -22,8 +22,9 @@ const Sidebar: React.FC<SidebarProps> = ({user, active}) => {
   return (
     user === "super admin" && (
         <aside className={`${styles.sidebar}`}>
+           <h1 className={styles.warehouse}>Warehouse Management</h1>
           <div className={styles.container}>
-           
+          
             <nav className={styles.nav}>
               {sidebarData.map((item) => (
                 <div

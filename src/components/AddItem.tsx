@@ -35,6 +35,8 @@ const AddItems: React.FC = () => {
         id:id,
         "productName": productName,
         quantity: quantity,
+        available: quantity,
+        availability: 100,
       });
       setId("");
       setProductName("");

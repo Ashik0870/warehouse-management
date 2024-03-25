@@ -22,6 +22,7 @@ const LoginPage = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
+    
     navigator.push("/dashboard");
   };
   return (

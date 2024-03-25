@@ -1,4 +1,5 @@
 import AddItems from "@/components/AddItem";
+import AddKitchen from "@/components/AddKitchen";
 import DashboardTitle from "@/components/DashboardTitle";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
@@ -15,7 +16,7 @@ export default function () {
       <Header />
       <Section active="Kitchen Items">
        <DashboardTitle data={data} />
-          <AddItems />
+          <AddKitchen />
       </Section>
     </>
   );

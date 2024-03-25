@@ -6,7 +6,7 @@ import { push, ref, set } from "firebase/database";
 import { database } from "../app/firebaseConfig";
 import { useRouter } from "next/navigation";
 
-const AddItems: React.FC = () => {
+const AddKitchen: React.FC = () => {
     const router = useRouter();
   const [id, setId] = useState("");
   const [productName, setProductName] = useState("");
@@ -34,6 +34,8 @@ const AddItems: React.FC = () => {
         id:id,
         "productName": productName,
         quantity: quantity,
+        available: quantity,
+        availability: 100,
       });
       setId("");
       setProductName("");
@@ -98,4 +100,4 @@ const AddItems: React.FC = () => {
   );
 };
 
-export default AddItems;
+export default AddKitchen;
