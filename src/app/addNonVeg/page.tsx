@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 
 const data = [
     {
-      title: "Egg,Meet and Fish",
+      title: "Eggs, Meat and Fish",
     },
   ];
 
@@ -14,7 +14,7 @@ export default function () {
   return (
     <>
       <Header />
-      <Section active="Egg,Meet and Fish">
+      <Section active="Eggs, Meat and Fish">
        <DashboardTitle data={data} />
           <AddNonVeg />
       </Section>

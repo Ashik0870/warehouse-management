@@ -52,7 +52,7 @@ const Page = () => {
   return (
     <>
       <Header />
-      <Section active="Egg,Meet and Fish">
+      <Section active="Eggs, Meat and Fish">
         <DashboardTitle data={data}>
         <Link href="/addNonVeg">
           <Button
