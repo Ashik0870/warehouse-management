@@ -41,7 +41,7 @@ const AddPersonal: React.FC = () => {
       setProductName("");
       setQuantity("");
       alert("Sucessfully added");
-      router.push("/personalCare");
+      router.push("/personalcare");
     } catch (err) {
       alert("Error occured");
     }
