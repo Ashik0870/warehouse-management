@@ -15,7 +15,7 @@ import Link from "next/link";
 
 const data = [
   {
-    title: "Egg,Meet and Fish",
+    title: "Eggs, Meat and Fish",
   },
 ];
 
