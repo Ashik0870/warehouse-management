@@ -11,7 +11,7 @@ const Page = () => {
       <Header />
       <Section active="Dashboard">
         <OrderDetails />
-        <DataTable data={dummyData} />
+        {/* <DataTable data={dummyData} /> */}
       </Section>
     </>
   );
