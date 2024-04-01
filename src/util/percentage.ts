@@ -1,4 +1,4 @@
-export const calculateAvailabilityPercentage = (quantity: any, available: any) => {
+export const calculateAvailabilityPercentage: any = (quantity: any, available: any) => {
     if (quantity === 0) {
       return 0;
     }

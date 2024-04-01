@@ -9,6 +9,19 @@
     font-weight: 400;
     color: var(--tableHeading);
   }
+
+  .redColor {
+    background-color: rgb(244, 98, 98);
+  }
+
+  .yellowColor{
+    background-color: rgb(237, 237, 144)
+  }
+
+  .remainingColor{
+    /* bckground-color: rgb(49, 182, 67); */
+  }
+  
   
   .tableContainer {
     box-shadow: 1px 1px 1px 1px;
@@ -48,6 +61,7 @@
   }
   .tableTdContainer {
     text-align: center;
+    font-weight: bold;
   }
   .dropDown {
     margin-left: 10px;
