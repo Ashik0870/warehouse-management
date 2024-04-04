@@ -15,6 +15,12 @@
     justify-content: center ;
 }
 
+.error{
+  text-align: center;
+  margin-bottom: 30px;
+  color: red;
+}
+
 .image{
     padding: 20px;
     align-items: center;

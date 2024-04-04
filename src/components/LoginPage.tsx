@@ -8,6 +8,8 @@ import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const [user, setUser] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const navigator = useRouter();
 
@@ -18,12 +20,16 @@ const LoginPage = () => {
   useEffect(() => {
     localStorage.setItem("User", user);
   },[user]);
-
-
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    
-    navigator.push("/dashboard");
+    if(user === "Manager" && password === "M@12345")
+      navigator.push("/dashboard");
+    else  
+     setError("Username or password is wrong");
+  };
+
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPassword(event.target.value);
   };
   return (
     <div className={styles.container}>
@@ -54,7 +60,11 @@ const LoginPage = () => {
               type="password"
               id="password"
               name="password"
+              onChange={handlePasswordChange}
             />
+          </div>
+          <div className={styles.error}>
+            {error}
           </div>
           <div className={styles.buttonContainer}>
             <button type="submit" className={styles.submitButton}>
